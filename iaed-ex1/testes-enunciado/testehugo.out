@@ -1,0 +1,85 @@
+Novo produto 0.
+Novo produto 1.
+Novo produto 2.
+Novo produto 3.
+Novo produto 4.
+Novo produto 5.
+Novo produto 6.
+Novo produto 7.
+Novo produto 8.
+Novo produto 9.
+Nova encomenda 0.
+Nova encomenda 1.
+Impossivel adicionar produto 1 a encomenda 1. Quantidade em stock insuficiente.
+Impossivel adicionar produto 10 a encomenda 1. Produto inexistente.
+Impossivel adicionar produto 11 a encomenda 1. Produto inexistente.
+Impossivel adicionar produto 9 a encomenda 1. Peso da encomenda excede o maximo de 200.
+Nova encomenda 2.
+Nova encomenda 3.
+Impossivel adicionar produto 3 a encomenda 3. Quantidade em stock insuficiente.
+Nova encomenda 4.
+Impossivel adicionar produto 0 a encomenda 5. Encomenda inexistente.
+Impossivel adicionar produto 11 a encomenda 5. Encomenda inexistente.
+Impossivel remover 6 unidades do produto 3 do stock. Quantidade insuficiente.
+Impossivel remover 1 unidades do produto 1 do stock. Quantidade insuficiente.
+Impossivel remover stock do produto 10. Produto inexistente.
+Impossivel alterar preco do produto 10. Produto inexistente.
+Produtos
+* cereja 1 50
+* kiwi 2 50
+* tangerina 3 40
+* abacaxi 4 60
+* banana 5 60
+* abacate 5 50
+* limao 6 20
+* laranja 7 5
+* tomate 8 50
+* maca 9 0
+Impossivel remover produto 10 a encomenda 5. Encomenda inexistente.
+Impossivel remover produto 10 a encomenda 3. Produto inexistente.
+Produtos
+* cereja 1 160
+* kiwi 2 50
+* tangerina 3 40
+* abacaxi 4 60
+* banana 5 60
+* abacate 5 50
+* limao 6 20
+* laranja 7 15
+* tomate 8 50
+* maca 9 0
+Custo da encomenda 0 360.
+Custo da encomenda 1 735.
+Custo da encomenda 2 425.
+Custo da encomenda 3 330.
+Custo da encomenda 4 240.
+Impossivel calcular custo da encomenda 5. Encomenda inexistente.
+maca 20.
+limao 30.
+tangerina 60.
+Impossivel listar produto 10. Produto inexistente.
+tangerina 0.
+abacate 50.
+abacaxi 60.
+abacate 0.
+Impossivel listar encomenda 5. Encomenda inexistente.
+Maximo produto 1 1 50.
+Maximo produto 6 3 20.
+Impossivel listar maximo do produto 10. Produto inexistente.
+Encomenda 0
+* limao 6 30
+* maca 9 20
+Encomenda 1
+* laranja 7 15
+* maca 9 50
+* tangerina 3 60
+Encomenda 2
+* cereja 1 5
+* kiwi 2 50
+* tomate 8 40
+Encomenda 3
+* abacate 5 50
+* abacaxi 4 20
+Encomenda 4
+* abacaxi 4 20
+Impossivel listar encomenda 5. Encomenda inexistente.
