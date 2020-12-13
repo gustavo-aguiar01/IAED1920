@@ -27,16 +27,16 @@
 /*=================================================================================*/
 
 /* Team functions */
-void _addTeam_(HashTeam * table, int NL);
-void _searchTeam_(HashTeam table, int NL);
+void addTeam(HashTeam * table, int NL);
+void searchTeam(HashTeam table, int NL);
 
 /* Game functions */
-void _addGame_(HashGame * gTable, GameLink * gList, HashTeam tTable, int NL);
-void _searchGame_(HashGame table, int NL);
-void _deleteGame_(HashGame table, GameLink * list, int NL);
-void _listGames_(GameLink list, int NL);
-void _changeScore_(HashGame table, int NL);
-void _winningTeams_(HashTeam table, int NL);
+void addGame(HashGame * gTable, GameLink * gList, HashTeam tTable, int NL);
+void searchGame(HashGame table, int NL);
+void deleteGame(HashGame table, GameLink * list, int NL);
+void listGames(GameLink list, int NL);
+void changeScore(HashGame table, int NL);
+void winningTeams(HashTeam table, int NL);
 
 /* Aux Game functions */
 int getMaxWins(HashTeam table, int * max, int * qty);

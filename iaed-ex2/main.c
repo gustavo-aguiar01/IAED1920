@@ -35,37 +35,37 @@ int main() {
 
             /*------------ TEAMS ------------*/
             case 'A':
-                _addTeam_(&hashteams, NL);
+                addTeam(&hashteams, NL);
                 NL++;
                 break;
             case 'P':
-                _searchTeam_(hashteams, NL);
+                searchTeam(hashteams, NL);
                 NL++;
                 break;
 
             /*------------ GAMES ------------*/
             case 'a':
-                _addGame_(&hashgames, &allgames, hashteams, NL);
+                addGame(&hashgames, &allgames, hashteams, NL);
                 NL++;
                 break;
             case 'p':
-                _searchGame_(hashgames, NL);
+                searchGame(hashgames, NL);
                 NL++;
                 break;
             case 'r':
-                _deleteGame_(hashgames, &allgames, NL);
+                deleteGame(hashgames, &allgames, NL);
                 NL++;
                 break;
             case 'l':
-                _listGames_(allgames, NL);
+                listGames(allgames, NL);
                 NL++;
                 break;
             case 's':
-                _changeScore_(hashgames, NL);
+                changeScore(hashgames, NL);
                 NL++;
                 break;
             case 'g':
-                _winningTeams_(hashteams, NL);
+                winningTeams(hashteams, NL);
                 NL++;
                 break;
 

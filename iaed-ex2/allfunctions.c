@@ -16,7 +16,7 @@
 /*================================== TEAM FUNCTIONS ==================================*/
 
 /* Adds a team to the team hashtable */
-void _addTeam_(HashTeam * table, int NL) {
+void addTeam(HashTeam * table, int NL) {
     char buffer[BUFSIZE];
     Team team;
     scanf(" %[^:\n]", buffer);
@@ -31,7 +31,7 @@ void _addTeam_(HashTeam * table, int NL) {
 }
 
 /* Searches a team in the team hashtable */
-void _searchTeam_(HashTeam table, int NL) {
+void searchTeam(HashTeam table, int NL) {
     char buffer[BUFSIZE];
     Team team;
     scanf(" %[^:\n]", buffer);
@@ -49,7 +49,7 @@ void _searchTeam_(HashTeam table, int NL) {
 /*================================== GAME FUNCTIONS ==================================*/
 
 /* Adds a game to the game hashtable and doubly linked list */
-void _addGame_(HashGame * gTable, GameLink * gList, HashTeam tTable, int NL) {
+void addGame(HashGame * gTable, GameLink * gList, HashTeam tTable, int NL) {
     int score1, score2;
     char name[BUFSIZE], team1[BUFSIZE], team2[BUFSIZE];
 
@@ -87,7 +87,7 @@ void _addGame_(HashGame * gTable, GameLink * gList, HashTeam tTable, int NL) {
 }
 
 /* Searches a game in the game hashtable */
-void _searchGame_(HashGame table, int NL) {
+void searchGame(HashGame table, int NL) {
     char buffer[BUFSIZE];
     Game game;
     scanf(" %[^:\n]", buffer);
@@ -104,7 +104,7 @@ void _searchGame_(HashGame table, int NL) {
 
 /* Deletes a game from the game hashtable and from the
 doubly linked list */
-void _deleteGame_(HashGame table, GameLink * list, int NL) {
+void deleteGame(HashGame table, GameLink * list, int NL) {
     char buffer[BUFSIZE];
     Game game;
     scanf(" %[^:\n]", buffer);
@@ -128,7 +128,7 @@ void _deleteGame_(HashGame table, GameLink * list, int NL) {
 }
 
 /* Lists all games in the system by input order */
-void _listGames_(GameLink list, int NL) {
+void listGames(GameLink list, int NL) {
     GameLink aux;
     if (list) {
         aux = list->prev;
@@ -143,7 +143,7 @@ void _listGames_(GameLink list, int NL) {
 }
 
 /* Changes a match's score */
-void _changeScore_(HashGame table, int NL) {
+void changeScore(HashGame table, int NL) {
     char buffer[BUFSIZE];
     int oldS1, oldS2;
     int score1, score2;
@@ -198,7 +198,7 @@ void _changeScore_(HashGame table, int NL) {
 }
 
 /* Prints winning teams */
-void _winningTeams_(HashTeam table, int NL) {
+void winningTeams(HashTeam table, int NL) {
 
     int i, j = 0;
     int max, qty;
